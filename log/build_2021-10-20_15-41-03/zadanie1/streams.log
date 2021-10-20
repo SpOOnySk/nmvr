@@ -1,0 +1,28 @@
+[0.448s] Invoking command in '/home/nvmr/zadanie_ws/src/zadanie1': PYTHONPATH=/home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/zadanie1 build --build-base /home/nvmr/zadanie_ws/build/zadanie1/build install --prefix /home/nvmr/zadanie_ws/install/zadanie1 --record /home/nvmr/zadanie_ws/build/zadanie1/install.log --single-version-externally-managed
+[0.830s] running egg_info
+[0.831s] writing ../../build/zadanie1/zadanie1.egg-info/PKG-INFO
+[0.834s] writing dependency_links to ../../build/zadanie1/zadanie1.egg-info/dependency_links.txt
+[0.835s] writing entry points to ../../build/zadanie1/zadanie1.egg-info/entry_points.txt
+[0.835s] writing requirements to ../../build/zadanie1/zadanie1.egg-info/requires.txt
+[0.836s] writing top-level names to ../../build/zadanie1/zadanie1.egg-info/top_level.txt
+[0.903s] reading manifest file '../../build/zadanie1/zadanie1.egg-info/SOURCES.txt'
+[0.905s] writing manifest file '../../build/zadanie1/zadanie1.egg-info/SOURCES.txt'
+[0.905s] running build
+[0.906s] running build_py
+[0.912s] copying zadanie1/pub.py -> /home/nvmr/zadanie_ws/build/zadanie1/build/lib/zadanie1
+[0.913s] copying zadanie1/sub.py -> /home/nvmr/zadanie_ws/build/zadanie1/build/lib/zadanie1
+[0.913s] running install
+[0.917s] running install_lib
+[0.920s] copying /home/nvmr/zadanie_ws/build/zadanie1/build/lib/zadanie1/pub.py -> /home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1
+[0.921s] copying /home/nvmr/zadanie_ws/build/zadanie1/build/lib/zadanie1/sub.py -> /home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1
+[0.922s] byte-compiling /home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1/pub.py to pub.cpython-38.pyc
+[0.925s] byte-compiling /home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1/sub.py to sub.cpython-38.pyc
+[0.927s] running install_data
+[0.929s] running install_egg_info
+[0.933s] removing '/home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1-0.0.0-py3.8.egg-info' (and everything under it)
+[0.936s] Copying ../../build/zadanie1/zadanie1.egg-info to /home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1-0.0.0-py3.8.egg-info
+[0.938s] running install_scripts
+[0.973s] Installing listener script to /home/nvmr/zadanie_ws/install/zadanie1/lib/zadanie1
+[0.974s] Installing talker script to /home/nvmr/zadanie_ws/install/zadanie1/lib/zadanie1
+[0.978s] writing list of installed files to '/home/nvmr/zadanie_ws/build/zadanie1/install.log'
+[1.024s] Invoked command in '/home/nvmr/zadanie_ws/src/zadanie1' returned '0': PYTHONPATH=/home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/zadanie1 build --build-base /home/nvmr/zadanie_ws/build/zadanie1/build install --prefix /home/nvmr/zadanie_ws/install/zadanie1 --record /home/nvmr/zadanie_ws/build/zadanie1/install.log --single-version-externally-managed

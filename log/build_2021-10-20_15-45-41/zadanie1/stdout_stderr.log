@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/zadanie1/zadanie1.egg-info/PKG-INFO
+writing dependency_links to ../../build/zadanie1/zadanie1.egg-info/dependency_links.txt
+writing entry points to ../../build/zadanie1/zadanie1.egg-info/entry_points.txt
+writing requirements to ../../build/zadanie1/zadanie1.egg-info/requires.txt
+writing top-level names to ../../build/zadanie1/zadanie1.egg-info/top_level.txt
+reading manifest file '../../build/zadanie1/zadanie1.egg-info/SOURCES.txt'
+writing manifest file '../../build/zadanie1/zadanie1.egg-info/SOURCES.txt'
+running build
+running build_py
+copying zadanie1/sub.py -> /home/nvmr/zadanie_ws/build/zadanie1/build/lib/zadanie1
+running install
+running install_lib
+copying /home/nvmr/zadanie_ws/build/zadanie1/build/lib/zadanie1/sub.py -> /home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1
+byte-compiling /home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1/sub.py to sub.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/zadanie1/zadanie1.egg-info to /home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1-0.0.0-py3.8.egg-info
+running install_scripts
+Installing listener script to /home/nvmr/zadanie_ws/install/zadanie1/lib/zadanie1
+Installing talker script to /home/nvmr/zadanie_ws/install/zadanie1/lib/zadanie1
+writing list of installed files to '/home/nvmr/zadanie_ws/build/zadanie1/install.log'

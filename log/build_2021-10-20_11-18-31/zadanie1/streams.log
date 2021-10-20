@@ -1,0 +1,41 @@
+[0.415s] Invoking command in '/home/nvmr/zadanie_ws/src/zadanie1': PYTHONPATH=/home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/zadanie1 build --build-base /home/nvmr/zadanie_ws/build/zadanie1/build install --prefix /home/nvmr/zadanie_ws/install/zadanie1 --record /home/nvmr/zadanie_ws/build/zadanie1/install.log --single-version-externally-managed
+[0.792s] running egg_info
+[0.793s] creating ../../build/zadanie1/zadanie1.egg-info
+[0.793s] writing ../../build/zadanie1/zadanie1.egg-info/PKG-INFO
+[0.794s] writing dependency_links to ../../build/zadanie1/zadanie1.egg-info/dependency_links.txt
+[0.795s] writing entry points to ../../build/zadanie1/zadanie1.egg-info/entry_points.txt
+[0.795s] writing requirements to ../../build/zadanie1/zadanie1.egg-info/requires.txt
+[0.796s] writing top-level names to ../../build/zadanie1/zadanie1.egg-info/top_level.txt
+[0.802s] writing manifest file '../../build/zadanie1/zadanie1.egg-info/SOURCES.txt'
+[0.889s] reading manifest file '../../build/zadanie1/zadanie1.egg-info/SOURCES.txt'
+[0.891s] writing manifest file '../../build/zadanie1/zadanie1.egg-info/SOURCES.txt'
+[0.892s] running build
+[0.892s] running build_py
+[0.892s] creating /home/nvmr/zadanie_ws/build/zadanie1/build
+[0.893s] creating /home/nvmr/zadanie_ws/build/zadanie1/build/lib
+[0.893s] creating /home/nvmr/zadanie_ws/build/zadanie1/build/lib/zadanie1
+[0.893s] copying zadanie1/pub.py -> /home/nvmr/zadanie_ws/build/zadanie1/build/lib/zadanie1
+[0.894s] copying zadanie1/__init__.py -> /home/nvmr/zadanie_ws/build/zadanie1/build/lib/zadanie1
+[0.894s] copying zadanie1/sub.py -> /home/nvmr/zadanie_ws/build/zadanie1/build/lib/zadanie1
+[0.895s] running install
+[0.897s] running install_lib
+[0.899s] creating /home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1
+[0.900s] copying /home/nvmr/zadanie_ws/build/zadanie1/build/lib/zadanie1/pub.py -> /home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1
+[0.900s] copying /home/nvmr/zadanie_ws/build/zadanie1/build/lib/zadanie1/__init__.py -> /home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1
+[0.901s] copying /home/nvmr/zadanie_ws/build/zadanie1/build/lib/zadanie1/sub.py -> /home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1
+[0.902s] byte-compiling /home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1/pub.py to pub.cpython-38.pyc
+[0.904s] byte-compiling /home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1/__init__.py to __init__.cpython-38.pyc
+[0.905s] byte-compiling /home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1/sub.py to sub.cpython-38.pyc
+[0.906s] running install_data
+[0.908s] creating /home/nvmr/zadanie_ws/install/zadanie1/share/ament_index
+[0.908s] creating /home/nvmr/zadanie_ws/install/zadanie1/share/ament_index/resource_index
+[0.908s] creating /home/nvmr/zadanie_ws/install/zadanie1/share/ament_index/resource_index/packages
+[0.909s] copying resource/zadanie1 -> /home/nvmr/zadanie_ws/install/zadanie1/share/ament_index/resource_index/packages
+[0.909s] copying package.xml -> /home/nvmr/zadanie_ws/install/zadanie1/share/zadanie1
+[0.909s] running install_egg_info
+[0.913s] Copying ../../build/zadanie1/zadanie1.egg-info to /home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1-0.0.0-py3.8.egg-info
+[0.914s] running install_scripts
+[0.948s] Installing listener script to /home/nvmr/zadanie_ws/install/zadanie1/lib/zadanie1
+[0.948s] Installing talker script to /home/nvmr/zadanie_ws/install/zadanie1/lib/zadanie1
+[0.950s] writing list of installed files to '/home/nvmr/zadanie_ws/build/zadanie1/install.log'
+[0.992s] Invoked command in '/home/nvmr/zadanie_ws/src/zadanie1' returned '0': PYTHONPATH=/home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/zadanie1 build --build-base /home/nvmr/zadanie_ws/build/zadanie1/build install --prefix /home/nvmr/zadanie_ws/install/zadanie1 --record /home/nvmr/zadanie_ws/build/zadanie1/install.log --single-version-externally-managed

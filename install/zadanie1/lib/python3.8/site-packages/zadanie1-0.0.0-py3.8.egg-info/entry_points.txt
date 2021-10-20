@@ -1,0 +1,4 @@
+[console_scripts]
+listener = zadanie1.sub:main
+talker = zadanie1.pub:main
+

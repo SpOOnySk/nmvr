@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/zadanie1/zadanie1.egg-info
+writing ../../build/zadanie1/zadanie1.egg-info/PKG-INFO
+writing dependency_links to ../../build/zadanie1/zadanie1.egg-info/dependency_links.txt
+writing entry points to ../../build/zadanie1/zadanie1.egg-info/entry_points.txt
+writing requirements to ../../build/zadanie1/zadanie1.egg-info/requires.txt
+writing top-level names to ../../build/zadanie1/zadanie1.egg-info/top_level.txt
+writing manifest file '../../build/zadanie1/zadanie1.egg-info/SOURCES.txt'
+reading manifest file '../../build/zadanie1/zadanie1.egg-info/SOURCES.txt'
+writing manifest file '../../build/zadanie1/zadanie1.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nvmr/zadanie_ws/build/zadanie1/build
+creating /home/nvmr/zadanie_ws/build/zadanie1/build/lib
+creating /home/nvmr/zadanie_ws/build/zadanie1/build/lib/zadanie1
+copying zadanie1/pub.py -> /home/nvmr/zadanie_ws/build/zadanie1/build/lib/zadanie1
+copying zadanie1/__init__.py -> /home/nvmr/zadanie_ws/build/zadanie1/build/lib/zadanie1
+copying zadanie1/sub.py -> /home/nvmr/zadanie_ws/build/zadanie1/build/lib/zadanie1
+running install
+running install_lib
+creating /home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1
+copying /home/nvmr/zadanie_ws/build/zadanie1/build/lib/zadanie1/pub.py -> /home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1
+copying /home/nvmr/zadanie_ws/build/zadanie1/build/lib/zadanie1/__init__.py -> /home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1
+copying /home/nvmr/zadanie_ws/build/zadanie1/build/lib/zadanie1/sub.py -> /home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1
+byte-compiling /home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1/pub.py to pub.cpython-38.pyc
+byte-compiling /home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1/sub.py to sub.cpython-38.pyc
+running install_data
+creating /home/nvmr/zadanie_ws/install/zadanie1/share/ament_index
+creating /home/nvmr/zadanie_ws/install/zadanie1/share/ament_index/resource_index
+creating /home/nvmr/zadanie_ws/install/zadanie1/share/ament_index/resource_index/packages
+copying resource/zadanie1 -> /home/nvmr/zadanie_ws/install/zadanie1/share/ament_index/resource_index/packages
+copying package.xml -> /home/nvmr/zadanie_ws/install/zadanie1/share/zadanie1
+running install_egg_info
+Copying ../../build/zadanie1/zadanie1.egg-info to /home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1-0.0.0-py3.8.egg-info
+running install_scripts
+Installing listener script to /home/nvmr/zadanie_ws/install/zadanie1/lib/zadanie1
+Installing talker script to /home/nvmr/zadanie_ws/install/zadanie1/lib/zadanie1
+writing list of installed files to '/home/nvmr/zadanie_ws/build/zadanie1/install.log'

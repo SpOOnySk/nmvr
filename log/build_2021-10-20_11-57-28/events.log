@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.003279] (zadanie1) JobQueued: {'identifier': 'zadanie1', 'dependencies': OrderedDict()}
+[0.003370] (zadanie1) JobStarted: {'identifier': 'zadanie1'}
+[0.095254] (-) TimerEvent: {}
+[0.200318] (-) TimerEvent: {}
+[0.303403] (-) TimerEvent: {}
+[0.404208] (-) TimerEvent: {}
+[0.507092] (-) TimerEvent: {}
+[0.607933] (-) TimerEvent: {}
+[0.715074] (-) TimerEvent: {}
+[0.818626] (-) TimerEvent: {}
+[0.928124] (-) TimerEvent: {}
+[0.958881] (zadanie1) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/zadanie1', 'build', '--build-base', '/home/nvmr/zadanie_ws/build/zadanie1/build', 'install', '--prefix', '/home/nvmr/zadanie_ws/install/zadanie1', '--record', '/home/nvmr/zadanie_ws/build/zadanie1/install.log', '--single-version-externally-managed'], 'cwd': '/home/nvmr/zadanie_ws/src/zadanie1', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nvmr', 'LC_TIME': 'sk_SK.UTF-8', 'SSH_AGENT_PID': '990', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/nvmr', 'OLDPWD': '/home/nvmr/zadanie_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'sk_SK.UTF-8', 'MANAGERPID': '694', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'nvmr', 'JOURNAL_STREAM': '8:28671', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nvmr', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/nvmr-VirtualBox:@/tmp/.ICE-unix/1039,unix/nvmr-VirtualBox:/tmp/.ICE-unix/1039', 'INVOCATION_ID': '001a3e21de0b4e2aaa0caea543d3d45a', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'sk_SK.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/41633b32_0c04_497c_aff3_fcf3de57bede', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'sk_SK.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/galactic', 'SHELL': '/bin/bash', 'LC_NAME': 'sk_SK.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'sk_SK.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'sk_SK.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nvmr/zadanie_ws/build/zadanie1', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'LC_NUMERIC': 'sk_SK.UTF-8', 'LC_PAPER': 'sk_SK.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.028273] (-) TimerEvent: {}
+[1.129324] (-) TimerEvent: {}
+[1.231101] (-) TimerEvent: {}
+[1.332980] (-) TimerEvent: {}
+[1.439377] (-) TimerEvent: {}
+[1.543288] (-) TimerEvent: {}
+[1.644047] (-) TimerEvent: {}
+[1.744898] (-) TimerEvent: {}
+[1.779495] (zadanie1) StdoutLine: {'line': b'running egg_info\n'}
+[1.787292] (zadanie1) StdoutLine: {'line': b'writing ../../build/zadanie1/zadanie1.egg-info/PKG-INFO\n'}
+[1.791289] (zadanie1) StdoutLine: {'line': b'writing dependency_links to ../../build/zadanie1/zadanie1.egg-info/dependency_links.txt\n'}
+[1.791611] (zadanie1) StdoutLine: {'line': b'writing entry points to ../../build/zadanie1/zadanie1.egg-info/entry_points.txt\n'}
+[1.791799] (zadanie1) StdoutLine: {'line': b'writing requirements to ../../build/zadanie1/zadanie1.egg-info/requires.txt\n'}
+[1.792125] (zadanie1) StdoutLine: {'line': b'writing top-level names to ../../build/zadanie1/zadanie1.egg-info/top_level.txt\n'}
+[1.846784] (-) TimerEvent: {}
+[1.954628] (-) TimerEvent: {}
+[1.963504] (zadanie1) StdoutLine: {'line': b"reading manifest file '../../build/zadanie1/zadanie1.egg-info/SOURCES.txt'\n"}
+[1.969285] (zadanie1) StdoutLine: {'line': b"writing manifest file '../../build/zadanie1/zadanie1.egg-info/SOURCES.txt'\n"}
+[1.971306] (zadanie1) StdoutLine: {'line': b'running build\n'}
+[1.971695] (zadanie1) StdoutLine: {'line': b'running build_py\n'}
+[1.977737] (zadanie1) StdoutLine: {'line': b'copying zadanie1/sub.py -> /home/nvmr/zadanie_ws/build/zadanie1/build/lib/zadanie1\n'}
+[1.978169] (zadanie1) StdoutLine: {'line': b'running install\n'}
+[1.979334] (zadanie1) StdoutLine: {'line': b'running install_lib\n'}
+[1.986240] (zadanie1) StdoutLine: {'line': b'copying /home/nvmr/zadanie_ws/build/zadanie1/build/lib/zadanie1/sub.py -> /home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1\n'}
+[1.989503] (zadanie1) StdoutLine: {'line': b'byte-compiling /home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1/sub.py to sub.cpython-38.pyc\n'}
+[1.999724] (zadanie1) StdoutLine: {'line': b'running install_data\n'}
+[2.004811] (zadanie1) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.015443] (zadanie1) StdoutLine: {'line': b"removing '/home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.016342] (zadanie1) StdoutLine: {'line': b'Copying ../../build/zadanie1/zadanie1.egg-info to /home/nvmr/zadanie_ws/install/zadanie1/lib/python3.8/site-packages/zadanie1-0.0.0-py3.8.egg-info\n'}
+[2.018454] (zadanie1) StdoutLine: {'line': b'running install_scripts\n'}
+[2.055185] (-) TimerEvent: {}
+[2.112272] (zadanie1) StdoutLine: {'line': b'Installing listener script to /home/nvmr/zadanie_ws/install/zadanie1/lib/zadanie1\n'}
+[2.113462] (zadanie1) StdoutLine: {'line': b'Installing talker script to /home/nvmr/zadanie_ws/install/zadanie1/lib/zadanie1\n'}
+[2.124967] (zadanie1) StdoutLine: {'line': b"writing list of installed files to '/home/nvmr/zadanie_ws/build/zadanie1/install.log'\n"}
+[2.157330] (-) TimerEvent: {}
+[2.238468] (zadanie1) CommandEnded: {'returncode': 0}
+[2.257872] (-) TimerEvent: {}
+[2.303657] (zadanie1) JobEnded: {'identifier': 'zadanie1', 'rc': 0}
+[2.305469] (-) EventReactorShutdown: {}

@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/zadanie1/zadanie1.egg-info/PKG-INFO
+../../build/zadanie1/zadanie1.egg-info/SOURCES.txt
+../../build/zadanie1/zadanie1.egg-info/dependency_links.txt
+../../build/zadanie1/zadanie1.egg-info/entry_points.txt
+../../build/zadanie1/zadanie1.egg-info/requires.txt
+../../build/zadanie1/zadanie1.egg-info/top_level.txt
+../../build/zadanie1/zadanie1.egg-info/zip-safe
+resource/zadanie1
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+zadanie1/__init__.py
+zadanie1/pub.py
+zadanie1/sub.py
