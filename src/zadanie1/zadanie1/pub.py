@@ -33,6 +33,13 @@ class MinimalPublisher(Node):
                 self.publisher.publish(msg)
                 time.sleep(1)
                 sys.exit()
+            elif action == "move":
+                msg = String()
+                msg.data = input_text
+                print("sending " + input_text)
+                self.publisher.publish(msg)
+                # self.get_logger().info('Publishing: "%s"' %msg.data)
+                self.i += 1
             else:
                 print("Unable to send command. Unknow command.")
         except ValueError:
