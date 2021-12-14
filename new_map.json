@@ -2758,32 +2758,32 @@
     {
       "x_cord": 22,
       "y_cord": 1,
-      "occ": 0
+      "occ": 1
     },
     {
       "x_cord": 22,
       "y_cord": 2,
-      "occ": 0
+      "occ": 1
     },
     {
       "x_cord": 22,
       "y_cord": 3,
-      "occ": 0
+      "occ": 1
     },
     {
       "x_cord": 22,
       "y_cord": 4,
-      "occ": 0
+      "occ": 1
     },
     {
       "x_cord": 22,
       "y_cord": 5,
-      "occ": 0
+      "occ": 1
     },
     {
       "x_cord": 22,
       "y_cord": 6,
-      "occ": 0
+      "occ": 1
     },
     {
       "x_cord": 22,
@@ -3123,7 +3123,7 @@
     {
       "x_cord": 24,
       "y_cord": 24,
-      "occ": 0
+      "occ": 1
     }
   ]
 }
