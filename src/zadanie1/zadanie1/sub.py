@@ -37,8 +37,9 @@ class MinimalSubscriber(Node):
                 x, y = cord.split('-')
                 map[x_max - int(x)][int(y)] = int(param)
             if int(param) == 1:
-                global addedWall
+                global addedWall, coordWall
                 addedWall = True
+                coordWall = coords
         elif action == "move":
             print("Now performing " + str(action) + " action.")
             coords = coord.split(',')
@@ -403,7 +404,9 @@ class NMvR(tk.Frame):
         self.frame = tk.Frame(master=window)
         self.data = get_map(map_name)
 
-        global map, robot, colors_L, path
+        global map, robot, colors_L, path, addedWall, km
+        km = 0
+        addedWall = False
         path = list()
         # Definovanie mapy do globalnej premennej a robota
         map = self.data
@@ -434,8 +437,9 @@ class NMvR(tk.Frame):
         self.frame.after(1000, self.refresh_c)
 
     def refresh_c(self):
-        global robot, map, path
+        global robot, map, path, addedWall, coordWall, graph, km
         goal = robot.getD_Goal()
+
         if (not path) and not None in goal:
             graph = GraphMap(map)
 
@@ -482,6 +486,40 @@ class NMvR(tk.Frame):
                     if map[i][j] == 3:
                         map[i][j] = 0
             path = list()
+        if addedWall:
+            addedWall = False
+            if graph:
+                for i in range(len(map)):
+                    for j in range(len(map[i])):
+                        if map[i][j] == 3:
+                            map[i][j] = 0
+                graph = GraphMap(map)
+
+                start = "x" + str(round(robot.x)) + "y" + str(round(robot.y))
+                goal = path[-1]
+
+                km += h_s(start, goal)
+                graph.setStart(start)
+                graph.setGoal(goal)
+                graph.graph[goal].rhs = 0
+                U = list()
+                U.append([calculateKey(graph, goal, start, km), goal])
+
+                computeShortestPath(graph, U, start, km)
+
+                path = get_path(graph, start)
+                path.pop(0)
+                for x in path:
+                    x_tile, y_tile = get_tile_from_path(x)
+                    # print(x_tile,y_tile)
+                    if (x_tile, y_tile) not in [(robot.x, robot.y), (robot.dgoalx, robot.dgoaly)]:
+                        map[24 - x_tile][y_tile] = 3
+                x, y = get_tile_from_path(path[0])
+                robot.setGoal(x, y)
+                x, y = get_tile_from_path(path[-1])
+                map[24 - int(x)][int(y)] = 2
+                robot.setD_Goal(None, None)
+
 
         cmap = colors.ListedColormap(colors_L)
 
